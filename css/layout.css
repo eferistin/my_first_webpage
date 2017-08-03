@@ -1,0 +1,80 @@
+    /* .first_title{
+        color:aqua;
+        }
+    .font_2{ font-size: 20px;}
+    #title_1{
+        font-size: 100px;
+        } */
+
+    body, html{
+        margin:0px;
+        padding: 0px;
+    }
+    /* h2{
+        color:purple;
+    } */
+
+    header{
+        background-color: black;
+        color:pink;
+        margin: 15px;
+        padding: 20px;
+        overflow:hidden;
+        font-family: 'Julee', cursive;
+    }
+
+    header .site_title{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0px 20px 0px 0px;
+        /* width: 75%; */
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    br{
+            clear:both;
+    }
+
+    footer{
+        min-width: 100%;
+        padding:10px 20px;
+        background-color: red;
+        color:white;
+        text-align: center;
+    }
+a{color:pink; text-decoration;none;}
+ a:hover{
+     color:red;
+ }
+
+    header ul{
+        width:45%;
+        display: inline-block; 
+        float: right; 
+        margin:0;
+    }
+
+    header ul li {
+        font-weight: bold;
+        font-size:15px;
+        display:inline-block;
+        float:left;
+        margin-right:25px;
+    }
+    section{
+        /* border: 1px solid #000; */
+        padding: 10px 30px;
+    }
+
+    section#left_section{
+        float:left;
+        width:70px;
+        height: 600px;
+        background-color:burlywood;
+    }
+
+    section#right_section{
+        float:left;
+        width:80%;        
+    }
